@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+.container
+{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    line-height: 30px;
+   
+}
+
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    flex: 1;
+
+   
+}
+.left
+{
+    flex: 1;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+
+
+}
+
+.box-text p
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box-text h2
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box-email label , .password label 
+{
+    display:block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.box-email input , .password input 
+
+{
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(90, 88, 88, 0.158);
+}
+
+
+.box-email input:hover , .password input:hover 
+
+{
+    width: 350px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(32, 230, 25, 0.815);
+}
+
+.box-mid a
+ {
+     margin-left: 115px;
+     text-decoration: none;
+     color: #27769e;
+
+ }
+
+ .right button
+ {
+    width: 375px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(90, 88, 88, 0.158);
+    margin-top: 20px;
+    color: white;
+}
+
+.right button:hover
+ {
+    padding: 12px;
+}
+ 
+ 
+
+
+.box-bottom
+{
+    display: flex;
+    margin-top: 250px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box-bottom p 
+{
+    margin-right: 10px;
+
+}
+.box-bottom a
+{
+    text-decoration: none;
+
+}
+
+
+
+
+.right .btn button
+{
+    background-color: #04C35C;
+}
+
+.right .gBtn button
+{
+background-color: #2D3748;
+color: white;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+input[type=checkbox] {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]:checked {
+    background: #27769e;
+    margin:0px;
+    position: relative;
+
+   }
+
+   .gBtn img 
+   {
+       margin-left: -20px;
+       margin-right: 20px;
+
+       text-align: left;
+   }
+   
